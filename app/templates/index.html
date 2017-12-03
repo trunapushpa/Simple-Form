@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ashgen Enterprise</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+<div class="form">
+    <h1>Submit Person Details</h1>
+    <div id="container">
+        <!--Messages here-->
+    </div>
+    <div class="top-row">
+        <div class="field-wrap">
+            <label>
+                First Name<span class="req">*</span>
+            </label>
+            <input id="fname" type="text" required autocomplete="off"/>
+        </div>
+
+        <div class="field-wrap">
+            <label>
+                Last Name<span class="req">*</span>
+            </label>
+            <input id="lname" type="text" required autocomplete="off"/>
+        </div>
+    </div>
+
+    <div class="field-wrap">
+        <label>
+            Email Address<span class="req">*</span>
+        </label>
+        <input id="email" type="email" required autocomplete="off"/>
+    </div>
+
+    <div class="field-wrap">
+        <label>
+            Phone Number<span class="req">*</span>
+        </label>
+        <input id="number" type="text" required autocomplete="off"/>
+    </div>
+
+    <button class="button button-block" onclick="submit()"/>
+    Submit</button>
+
+</div> <!-- /form -->
+<script src="/static/js/vendor/jquery.min.js"></script>
+<script src="/static/js/index.js"></script>
+<script src="/static/js/form.js"></script>
+</body>
+</html>
