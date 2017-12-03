@@ -2,18 +2,19 @@
 
 ## Steps to run the project
 
-1.  `python-setuptools` and `pip` are required. If you do not have then run the following commands:
+1.  `python-setuptools` and `pip` are required. If you do not have then run the following commands:<br>
     ```
      sudo apt-get install python-setuptools python-dev build-essential
      sudo easy_install pip
     ```
-2.  Install the requirements with the following command:
+    <br>
+2.  Install the requirements with the following command:<br>
     ```
     pip install -r requirements.txt
     ```
-    You may require sudo permissions.
-3.  Run the command to start the server:
+    You may require sudo permissions.<br>
+3.  Run the command to start the server:<br>
     ```
     python run.py
-    ```
-4.  Visit `localhost:8080` to view the form.
+    ```<br>
+4.  Visit `localhost:8080` to view the form.<br>
