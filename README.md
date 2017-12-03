@@ -17,5 +17,4 @@
     ```
     python run.py
     ```
-    <br>
 4.  Visit `localhost:8080` to view the form.<br>
